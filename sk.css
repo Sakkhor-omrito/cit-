@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.body{
+    font-family: 'Arimo', sans-serif;
+}
+.container{
+    width: 1115px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.valign_center{
+    align-items: center;
+}
+.right_side h3{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #5B6B80;
+    font-size: 32px;
+    margin-top: 0px;
+}
+/* header */
+.header{
+    background-color: #ee2e24;
+    padding: 9px 0px;
+}
+.header_left{
+    width: 20%;
+}
+.header_left h4{
+    font-weight: 400;
+    box-shadow: 0;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+}
+.header_right{
+    width: 80%;
+}
+marquee{
+    font-size: 16px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+/* menu */
+.main{
+    box-shadow: 0 0 20px #ddd;
+    position: relative;
+    z-index: 99;
+}
+.logo{
+    width: 25%;
+    float: right;
+}
+.logo p{
+    color: #666;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+.logo p::after{
+    content: '';
+    position: absolute;
+    height: 22px;
+    width: 2px;
+    background-color: #666;
+    left: -10px;
+    top: 4px;
+}
+.menu{
+    width: 75%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 24px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    text-transform: capitalize;
+    font-family: 'Arimo', sans-serif;
+}
+.menu ul li a:hover{
+    color: #ee2e24;
+}
+.menu ul li:last-child a{
+    background-color: #ee2e24;
+    color: white;
+}
+/* banner */
+.image{
+    
+    background-position: center !important;
+    background-size: cover !important;
+    height: 500px;
+    border-bottom: 1px solid #D1ECF1;
+}
+/* about us */
+.left_side{
+    width: 41%;
+}
+.left_side img{
+    width: 100%;
+    margin: 50px 0px;
+}
+.right_side{
+    width: 49%;
+    margin: 40px 28px;
+}
+.right_side p{
+    color: #777;
+    font-weight: 16px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    padding: 5px 0px;
+    line-height: 26px;
+}
+/* seminer */
+.seminer{
+    background-color: #F5F5F5;
+    padding: 40px 0px;
+}
+.seminer h2{
+    font-family: 'Arimo', sans-serif;
+    color: #444444;
+    background-color: #E9E9E9;
+    padding: 16px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    height: 90%;
+}
+table{
+   width: 98%;
+   height: 425px;
+   margin: auto;
+    border-left: 1px solid #DEE2E6;
+    border-right: 1px solid #DEE2E6;
+    border-bottom: 1px solid #DEE2E6;
+}
+.table{
+    width: 100%;
+    position: relative;
+    margin: 30px 0px;
+    border: 0;
+}
+tr{
+    text-align: center;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Arimo', sans-serif;
+    
+}
+th{
+    background-color: #49596D;
+    color: white;
+    text-align: center;
+    padding: 16px 0px;
+    margin: 30px 0px;
+    font-weight: 700;
+    font-family: 'Arimo', sans-serif;
+    border-left: 1px solid #fff;
+}
+td{
+    padding:5px 0px;
+    border: 1px solid #DEE2E6;
+}
+.table table tr:nth-child(odd){
+    background-color: #F2F2F2;
+}
+.table tr td button {
+    background-color: #49596D;
+    padding: 10px 40px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: .5s;
+    border: none;
+}
+.table tr td button:hover{
+    background-color: red;
+}
+/* courses */
+/* courses */
+.courses_header p{
+    color: #777;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.courses_header > h3{
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #5B6B80;
+}
+.left_row{
+    width: 49%;
+    border: 1px solid #DDDDDD;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 100%;
+}
+.left_1{
+    float: right;
+    width: 40%;
+}
+.left_1 img{
+    width: 100%;
+}
+.left_2{
+    float: right;
+    width: 60%;
+}
+.right_row{
+    width: 48%;
+    margin-top: 20px;
+    border: 1px solid #DDDDDD;
+    height: 100%;
+}
+.left_row h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    margin: 15px 10px;
+}
+.left_row p{
+    text-align: left!important;
+    margin: 12px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+}
+.right_1{
+    float: right;
+    width: 40%;
+}
+.right_2{
+    float: right;
+    width: 60%;
+}
+.right_row h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    margin: 15px 10px;
+}
+.right_row p{
+    text-align: left!important;
+    margin: 12px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+}
+.common2{
+    background-color: #49596D;
+    color: white;
+    padding: 15px 40px;
+    margin: 18px 0px;
+    border: none;
+    font-size: 16px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: .5s;
+}
+.common2:hover{
+    background-color: red;
+}
+
+/* gallery */
+.gallery_header h3{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #5B6B80;
+    font-size: 32px;
+}
+.gallery_header p{
+    color: #777;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.common{
+    width: 30%;
+    margin:24px 16px;
+}
+
+
+/* contact */
+.contact h3{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #5B6B80;
+    font-size: 32px;
+}
+.contact p{
+    color: #777;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.form input{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    margin-right: 20px;
+    width: 520px;
+    display: inline-block;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.form textarea{
+    margin: 20px 0px;
+    font-size: 14px;
+    box-shadow: none;
+    font-family: 'Arimo', sans-serif;
+}
+
+.form button{
+    padding: 15px 40px;
+    background-color: #49596D;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    box-shadow: none;
+    border-radius: 30px;
+    margin: 1% 42%;
+    border: none;
+}
+/* footer */
+.footer{
+    width: 100%;
+    margin-top: 60px;
+    background-color: #F5F5F5;
+    margin-bottom: 50px;
+}
+.image2{
+    width: 30%;
+    margin-top: 50px;
+}
+.image2 img{
+    margin-left: 85px;
+
+}
+.image2 p{
+    color: #2c2c2c;
+    font-size: 16px;
+    padding-top: 25px;
+    font-family: 'Arimo', sans-serif;
+}
+.address{
+    width: 30%;
+    margin-left: 50px;
+}
+.address h4{
+    color: #4e5e73;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    position: relative;
+}
+.address h4::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    background-color: #ddd;
+    left: 0;
+    bottom: -10px;
+}
+.address p{
+    margin-top: 40px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: black;
+}
+.Mobile{
+    width: 30%;
+    margin-left: 50px;
+}
+.Mobile h4{
+    color: #4e5e73;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    position: relative;
+}
+.Mobile h4::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    background-color: #ddd;
+    left: 0;
+    bottom: -10px;
+}
+.Mobile p{
+    margin-top: 40px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: black;
+}
+.copyright{
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* */
+
+
+
+
+
+
+
+
+
